@@ -85,6 +85,7 @@ set(${PROJECT_NAME}_SOURCES
     watchdir-win32.c
     web.c
     webseed.c
+    websocket.c
     wildmat.c
 )
 
@@ -130,6 +131,7 @@ set(${PROJECT_NAME}_PUBLIC_HEADERS
     variant.h
     watchdir.h
     web.h
+    websocket.h
     ${PROJECT_BINARY_DIR}/version.h
 )
 
