@@ -234,6 +234,7 @@ include_directories(
     ${MINIUPNPC_INCLUDE_DIRS}
     ${DHT_INCLUDE_DIRS}
     ${UTP_INCLUDE_DIRS}
+    ${RTC_INCLUDE_DIRS}
     ${B64_INCLUDE_DIRS}
 )
 
@@ -270,6 +271,7 @@ target_link_libraries(${TR_NAME}
     ${MINIUPNPC_LIBRARIES}
     ${DHT_LIBRARIES}
     ${UTP_LIBRARIES}
+    ${RTC_LIBRARIES}
     ${B64_LIBRARIES}
     ${LIBINTL_LIBRARY}
     ${LIBM_LIBRARY}
